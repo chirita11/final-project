@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+.section {
+  position: relative;
+}
+.desktop {
+  display: none;
+}
+.tablet {
+  display: none;
+}
+.mobile {
+  width: 100%;
+}
+.home-images {
+  position: relative;
+}
+.home-texts {
+  font-family: "Manrope", sans-serif;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35%;
+  bottom: 0;
+  margin: auto;
+  width: 380px;
+  justify-content: center;
+  margin: auto;
+}
+.home-texts p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.home-texts h1 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.home-texts h6 {
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.home-texts a {
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  border-radius: 0;
+  padding: 1rem 2rem;
+  background-color: #d87d4a;
+}
+.home-texts a:hover {
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  border-radius: 0;
+  padding: 1rem 2rem;
+  background-color: #fbaf85;
+}
+.section-2 {
+  margin-top: 10rem;
+}
+.shop-items {
+  position: relative;
+}
+
+.item-box {
+  background-color: #f1f1f1;
+  padding: 10rem 0 2rem;
+  margin: 10rem 1.5rem;
+  border-radius: 15px;
+}
+.items {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 100%;
+  margin: auto;
+}
+.shop-items h6 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.shop-items a {
+  font-family: "Manrope", sans-serif;
+  text-decoration: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-left: 12rem;
+}
+
+.section-3 {
+  margin: 0 1rem;
+  background-color: #d87d4a;
+  border-radius: 10px;
+}
+.image-box .mobile {
+  padding-top: 3rem;
+  width: 210px;
+  margin-left: 6.5rem;
+}
+
+.image-box {
+  box-sizing: border-box;
+  position: relative;
+}
+.section-text {
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+  margin: auto;
+  width: 380px;
+  padding: 0 1.5rem;
+}
+
+.section-text h3 {
+  font-size: 3.5rem;
+  margin-top: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-text h6 {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1.5px;
+  padding: 0 1px;
+  line-height: 22px;
+}
+.section-text a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  padding: 1rem 2rem;
+  background-color: #000;
+  margin-left: 5.5rem;
+  border-radius: 0;
+  margin-bottom: 3rem;
+}
+
+.section-4 {
+  display: inline;
+}
+.section4-text {
+  font-family: "Manrope", sans-serif;
+}
+
+.section4-text a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  padding: 1rem 2rem;
+  margin-left: 5.5rem;
+  border-radius: 0;
+  margin-bottom: 3rem;
+  outline: 1px solid #000;
+}
+
+@media (min-width: 769px) and (max-width: 1198px) {
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: block;
+    width: 100%;
+  }
+  .mobile {
+    display: none;
+  }
+  .home-texts {
+    width: 400px;
+  }
+  .home-texts h6 {
+    padding: 1rem 0;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .section-2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 1rem;
+    margin-bottom: 5rem;
+    margin: 10rem 3rem 5rem;
+  }
+  .item-box {
+    margin: 0rem;
+  }
+
+  .image-box .tablet {
+    padding-top: 3rem;
+    width: 230px;
+    margin-left: 16.5rem;
+  }
+
+  .image-box {
+    box-sizing: border-box;
+    position: relative;
+  }
+  .section-text {
+    color: #ffffff;
+    font-family: "Manrope", sans-serif;
+    margin: auto;
+    width: 380px;
+    padding: 0 1rem;
+  }
+
+  .section-text h3 {
+    font-size: 4rem;
+    margin-top: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .section-text h6 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 0 3px;
+    line-height: 25px;
+  }
+  .section-text a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 1rem 2rem;
+    background-color: #000;
+    margin-left: 5.5rem;
+    border-radius: 0;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 1199px) {
+  .desktop {
+    display: block;
+    width: 100%;
+  }
+  .tablet {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+  .home-texts {
+    text-align: start;
+    left: 0;
+    right: 100%;
+    top: 35%;
+    bottom: 0;
+    margin: auto;
+    width: 400px;
+    margin-left: 5rem;
+  }
+
+  .home-texts h6 {
+    padding: 1rem 0;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    margin: 15rem 5rem 10rem;
+  }
+  .item-box {
+    margin: 0;
+  }
+  .section-3 {
+    display: flex;
+  }
+
+  .image-box .desktop {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 10rem;
+  }
+
+  .image-box {
+    box-sizing: border-box;
+    position: relative;
+  }
+  .section-text {
+    color: #ffffff;
+    font-family: "Manrope", sans-serif;
+    width: 380px;
+    margin-right: 8rem;
+    margin-top: 3rem;
+  }
+
+  .section-text h3 {
+    font-size: 4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: justify;
+    /* position: absolute; */
+    /* bottom: 0; */
+  }
+
+  .section-text h6 {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  .section-text a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 1rem 2rem;
+    background-color: #000;
+    margin-left: 8px;
+    border-radius: 0;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+}
