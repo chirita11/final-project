@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/Navbar.css";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const Navbar = () => {
   return (
@@ -36,9 +37,8 @@ const Navbar = () => {
               </a>
             </div>
             <div className="cart">
-              <a href="#" className="text-white">
-                <i class="bi bi-cart"></i>
-              </a>
+              <a href="#" className="text-white"></a>
+              <AiOutlineShoppingCart />
             </div>
           </div>
         </div>

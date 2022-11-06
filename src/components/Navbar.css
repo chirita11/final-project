@@ -2,7 +2,7 @@
 #nav {
   background-color: #191919;
   border-bottom: 1px solid #aaaaaa;
-  margin: 0 1rem;
+  margin: 0;
 }
 .navbar .navbar-nav {
   margin: auto;
@@ -28,7 +28,7 @@
 
 @media (min-width: 769px) and (max-width: 1023px) {
   #nav {
-    margin: 0 3rem;
+    margin: 0;
   }
 }
 

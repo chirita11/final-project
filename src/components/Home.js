@@ -13,6 +13,13 @@ import speakertablet from "../assets/home/tablet/image-speaker-zx9.png";
 import mobilespeaker from "../assets/home/mobile/image-speaker-zx7.jpg";
 import tabletspeaker from "../assets/home/tablet/image-speaker-zx7.jpg";
 import desktopspeaker from "../assets/home/desktop/image-speaker-zx7.jpg";
+import mobileearphone from "../assets/home/mobile/image-earphones-yx1.jpg";
+import tabletearphone from "../assets/home/tablet/image-earphones-yx1.jpg";
+import desktopearphone from "../assets/home/desktop/image-earphones-yx1.jpg";
+import patterncircle from "../assets/home/desktop/pattern-circles.svg";
+import mobileximage from "../assets/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg";
+import tabletximage from "../assets/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg";
+import desktopximage from "../assets/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg";
 
 const home = () => {
   return (
@@ -75,6 +82,9 @@ const home = () => {
           <img className="mobile" src={speakermobile} alt="" />
           <img className="tablet" src={speakertablet} alt="" />
           <img className="desktop" src={speakerdesktop} alt="" />
+          <div className="pattern">
+            <img className="pattern1" src={patterncircle} alt="" />
+          </div>
         </div>
         <div className="section-text">
           <h3>ZX9 speaker</h3>
@@ -90,16 +100,58 @@ const home = () => {
 
       <div className="section-4">
         <div className="section4-text">
-          <h3> ZX7 Speaker</h3>
-
-          <a href="#" className="btn">
-            See product
-          </a>
+          <div className="left">
+            <h3> ZX7 Speaker</h3>
+            <a href="#" className="btn">
+              See product
+            </a>
+          </div>
         </div>
         <div className="images-box">
           <img className="mobile" src={mobilespeaker} alt="" />
           <img className="tablet" src={tabletspeaker} alt="" />
           <img className="desktop" src={desktopspeaker} alt="" />
+        </div>
+      </div>
+
+      <div className="section-5">
+        <div className="image4-box">
+          <img className="mobile" src={mobileearphone} alt="" />
+          <img className="tablet" src={tabletearphone} alt="" />
+          <img className="desktop" src={desktopearphone} alt="" />
+        </div>
+        <div className="section5-text">
+          <div className="left1">
+            <h3> yx1 earphones</h3>
+            <a href="#" className="btn">
+              See product
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="sectionx">
+        <div className="imagex-box">
+          <img className="mobile" src={mobileximage} alt="" />
+          <img className="tablet" src={tabletximage} alt="" />
+          <img className="desktop" src={desktopximage} alt="" />
+        </div>
+        <div className="sectionx-text">
+          <div className="leftx">
+            <h3>
+              Bringing you the <span>best</span> audio gear
+            </h3>
+            <p>
+              {" "}
+              Located at the heart of New York City, Audiophile is the premier
+              store for high end headphones, earphones, speakers, and audio
+              accessories. We have a large showroom and luxury demonstration
+              rooms available for you to browse and experience a wide range of
+              our products. Stop by our store to meet some of the fantastic
+              people who make Audiophile the best place to buy your portable
+              audio equipment.
+            </p>
+          </div>
         </div>
       </div>
     </>
