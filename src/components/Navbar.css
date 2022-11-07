@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
 #nav {
-  background-color: #191919;
+  background-color: #000;
   border-bottom: 1px solid #aaaaaa;
-  margin: 0;
 }
+
 .navbar .navbar-nav {
   margin: auto;
   column-gap: 25px;
@@ -21,10 +21,6 @@
 .navbar .navbar-nav .active {
   color: #d87d4a;
 }
-.cart a {
-  justify-content: end;
-  color: #fff;
-}
 
 @media (min-width: 769px) and (max-width: 1023px) {
   #nav {
@@ -40,6 +36,6 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
   #nav {
-    margin: 0 2rem;
+    margin: 0;
   }
 }

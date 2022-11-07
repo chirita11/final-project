@@ -3,9 +3,9 @@ import "../components/Home.css";
 import desktopimage from "../assets/home/desktop/image-hero.jpg";
 import tabletimage from "../assets/home/tablet/image-header.jpg";
 import mobileimage from "../assets/home/mobile/image-header.jpg";
-import headphone from "../assets/product-xx99-mark-one-headphones/desktop/image-product.png";
-import speaker from "../assets/home/desktop/image-speaker-zx9.png";
-import earphone from "../assets/product-yx1-earphones/desktop/image-product.png";
+import headphone from "../assets/xshared/xheadphones.png";
+import speaker from "../assets/xshared/xspeakers.png";
+import earphone from "../assets/xshared/xearphones.png";
 import arrowright from "../assets/icon-arrow-right.svg";
 import speakerdesktop from "../assets/home/desktop/image-speaker-zx9.png";
 import speakermobile from "../assets/home/mobile/image-speaker-zx9.png";
@@ -17,9 +17,6 @@ import mobileearphone from "../assets/home/mobile/image-earphones-yx1.jpg";
 import tabletearphone from "../assets/home/tablet/image-earphones-yx1.jpg";
 import desktopearphone from "../assets/home/desktop/image-earphones-yx1.jpg";
 import patterncircle from "../assets/home/desktop/pattern-circles.svg";
-import mobileximage from "../assets/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg";
-import tabletximage from "../assets/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg";
-import desktopximage from "../assets/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg";
 
 const home = () => {
   return (
@@ -126,31 +123,6 @@ const home = () => {
             <a href="#" className="btn">
               See product
             </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="sectionx">
-        <div className="imagex-box">
-          <img className="mobile" src={mobileximage} alt="" />
-          <img className="tablet" src={tabletximage} alt="" />
-          <img className="desktop" src={desktopximage} alt="" />
-        </div>
-        <div className="sectionx-text">
-          <div className="leftx">
-            <h3>
-              Bringing you the <span>best</span> audio gear
-            </h3>
-            <p>
-              {" "}
-              Located at the heart of New York City, Audiophile is the premier
-              store for high end headphones, earphones, speakers, and audio
-              accessories. We have a large showroom and luxury demonstration
-              rooms available for you to browse and experience a wide range of
-              our products. Stop by our store to meet some of the fantastic
-              people who make Audiophile the best place to buy your portable
-              audio equipment.
-            </p>
           </div>
         </div>
       </div>

@@ -1,3 +1,35 @@
+.sectionx {
+  margin: 3rem 1.5rem;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.sectionx-text {
+  margin-top: 3rem;
+  font-family: "Manrope", sans-serif;
+}
+
+.sectionx-text span {
+  color: #d87d4a;
+}
+.sectionx h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.sectionx p {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 6px;
+}
+.imagex-box img {
+  border-radius: 10px;
+  width: 100%;
+}
+
 .footer {
   background-color: #000000;
   color: #fff;
@@ -58,10 +90,10 @@
   }
 
   .footer {
-    margin: 2rem 3rem 7rem;
-  }
-  .footer {
     padding: 0 3rem;
+    text-align: start;
+  }
+  .footer-link {
     text-align: start;
   }
 
@@ -76,18 +108,34 @@
     text-align: start;
   }
   .footer-links {
-    display: grid;
-    grid-template-columns: 1fr 500px;
+    display: flex;
   }
   .links {
-    display: flex;
+    text-align: end;
     padding: 3rem 0;
   }
 
   .links a {
     margin: 0 10px;
-    text-align: end;
     justify-content: end;
+  }
+  .sectionx h3 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 0 6rem;
+  }
+
+  .sectionx p {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 4rem;
+  }
+  .imagex-box img {
+    width: 100%;
+    height: 20%;
   }
 }
 
@@ -141,5 +189,36 @@
   }
   .links a {
     margin: 0 10px;
+  }
+
+  .sectionx h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.43px;
+    text-align: justify;
+    line-height: 44px;
+  }
+
+  .sectionx p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: justify;
+    padding: 10px 6px;
+  }
+
+  .sectionx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "right left";
+  }
+
+  .sectionx-text {
+    grid-area: right;
+    margin: 15rem 6rem;
+  }
+  .imagex-box {
+    grid-area: left;
   }
 }

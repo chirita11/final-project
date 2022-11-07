@@ -1,15 +1,22 @@
 import React from "react";
 import "../components/Navbar.css";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import logoImg from "../assets/shared/desktop/logo.svg";
+import cart from "../assets/shared/desktop/icon-cart.svg";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+  const { pathname: exactLocation } = location;
+  const newLocation = exactLocation.split("/");
+  console.log(newLocation);
+
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-dark py-3" id="nav">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <h1>audiophile</h1>
-          </a>
+      <nav class="navbar navbar-expand-lg  py-3" id="nav">
+        <div class="container">
+          <Link class="navbar-brand" href="#">
+            <img src={logoImg} alt="" />
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -23,22 +30,34 @@ const Navbar = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link " aria-current="page" href="#">
+              <Link
+                className={newLocation[1] === "" ? "active" : ""}
+                aria-current="page"
+                to="/"
+              >
                 Home
-              </a>
-              <a class="nav-link active" href="#">
+              </Link>
+              <Link
+                className={newLocation[1] === "about" ? "active" : ""}
+                to="/headphone"
+              >
                 Headphones
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link
+                className={newLocation[1] === "about" ? "active" : ""}
+                to="/"
+              >
                 Speakers
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link
+                className={newLocation[1] === "about" ? "active" : ""}
+                to="/"
+              >
                 Earphones
-              </a>
+              </Link>
             </div>
             <div className="cart">
-              <a href="#" className="text-white"></a>
-              <AiOutlineShoppingCart />
+              <img src={cart} alt="" />
             </div>
           </div>
         </div>
