@@ -26,18 +26,17 @@
   line-height: 38.25px;
   letter-spacing: 2px;
 }
-
-.xx99 {
+.zx9 {
   margin: 2rem;
   border-radius: 10px;
 }
 
-.xx99-texts {
+.zx9-texts {
   text-align: center;
   border-radius: 10px;
   font-family: "Manrope", sans-serif;
 }
-.xx99-texts p {
+.zx9-texts p {
   font-family: "Manrope";
   font-size: 14px;
   font-style: normal;
@@ -49,12 +48,12 @@
   color: #d87d4a;
   margin: 2rem 0;
 }
-.xx99-images img {
+.zx9-images img {
   border-radius: 10px;
   margin-bottom: 1rem;
 }
 
-.xx99-texts h1 {
+.zx9-texts h1 {
   font-family: "Manrope";
   font-size: 28px;
   font-style: normal;
@@ -67,7 +66,7 @@
   margin: 2rem 0;
 }
 
-.xx99-texts h6 {
+.zx9-texts h6 {
   font-family: "Manrope";
   font-size: 15px;
   font-style: normal;
@@ -79,7 +78,7 @@
   opacity: 0.5;
 }
 
-.xx99-texts a {
+.zx9-texts a {
   color: #f1f1f1;
   font-size: 18px;
   font-weight: 600;
@@ -90,7 +89,7 @@
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
-.xx99-texts a:hover {
+.zx9-texts a:hover {
   color: #f1f1f1;
   font-size: 18px;
   font-weight: 600;
@@ -100,17 +99,17 @@
   background-color: #fbaf85;
 }
 
-.xx99-mark {
+.zx7 {
   margin: 2rem;
   text-align: center;
 }
 
-.xx99mark-images img {
+.zx7-images img {
   border-radius: 10px;
   margin-bottom: 1rem;
 }
 
-.xx99mark-texts h1 {
+.zx7-texts h1 {
   font-family: "Manrope";
   font-size: 28px;
   font-style: normal;
@@ -124,7 +123,7 @@
   margin: 2rem 0;
 }
 
-.xx99mark-texts h6 {
+.zx7-texts h6 {
   font-family: "Manrope";
   font-size: 15px;
   font-style: normal;
@@ -136,7 +135,7 @@
   opacity: 0.5;
 }
 
-.xx99mark-texts a {
+.zx7-texts a {
   color: #f1f1f1;
   font-size: 18px;
   font-weight: 600;
@@ -147,63 +146,7 @@
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
-.xx99mark-texts a:hover {
-  color: #f1f1f1;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25px;
-  border-radius: 0;
-  padding: 1rem 2rem;
-  background-color: #fbaf85;
-}
-
-.xx59 {
-  margin: 2rem;
-  text-align: center;
-}
-
-.xx59-images img {
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
-
-.xx59-texts h1 {
-  font-family: "Manrope";
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 38px;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin: 2rem 0;
-  color: #000;
-}
-
-.xx59-texts h6 {
-  font-family: "Manrope";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 25px;
-  text-align: center;
-  color: #000;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-}
-
-.xx59-texts a {
-  color: #f1f1f1;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25px;
-  border-radius: 0;
-  padding: 1rem 2rem;
-  background-color: #d87d4a;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-}
-.xx59-texts a:hover {
+.zx7-texts a:hover {
   color: #f1f1f1;
   font-size: 18px;
   font-weight: 600;
@@ -224,18 +167,19 @@
   .mobile {
     display: none;
   }
-  .xx99-images {
+
+  .zx9-images {
     margin: 1rem 2rem;
   }
-  .xx99-images img {
+  .zx9-images img {
     border-radius: 10px;
     margin-bottom: 1rem;
   }
 
-  .xx99-texts {
+  .zx9-texts {
     margin: 1rem 10rem;
   }
-  .xx99-texts h1 {
+  .zx9-texts h1 {
     font-family: "Manrope";
     font-size: 40px;
     font-style: normal;
@@ -247,37 +191,17 @@
     color: #000;
     margin: 2rem 0;
   }
-  .xx99mark-images {
+  .zx7-images {
     margin: 1rem 2rem;
   }
-  .xx99mark-images img {
+  .zx7-images img {
     border-radius: 10px;
   }
-  .xx99mark-texts {
+  .zx7-texts {
     margin: 1rem 10rem;
   }
 
-  .xx99mark-texts h1 {
-    font-family: "Manrope";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 44px;
-    text-align: center;
-    letter-spacing: 1.43px;
-    text-transform: uppercase;
-    color: #000;
-    margin: 2rem 0;
-  }
-
-  .xx59-images {
-    margin: 1rem 2rem;
-  }
-
-  .xx59-texts {
-    margin: 1rem 10rem;
-  }
-  .xx59-texts h1 {
+  .zx7-texts h1 {
     font-family: "Manrope";
     font-size: 40px;
     font-style: normal;
@@ -302,7 +226,6 @@
   .mobile {
     display: none;
   }
-
   .heading h4 {
     font-family: "Manrope";
     font-weight: 700;
@@ -311,19 +234,19 @@
     text-align: center;
     line-height: 44px;
   }
-  .xx99 {
+  .zx9 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "right left";
     margin: 5rem 9rem 1rem;
   }
 
-  .xx99-texts {
+  .zx9-texts {
     grid-area: left;
     margin: 10rem 6rem 15rem;
     text-align: justify;
   }
-  .xx99-texts h1 {
+  .zx9-texts h1 {
     font-family: "Manrope";
     font-size: 40px;
     font-style: normal;
@@ -334,51 +257,26 @@
     text-align: justify;
     color: #000;
   }
-  .xx99-texts h6 {
+  .zx9-texts h6 {
     text-align: justify;
   }
-  .xx99-texts p {
+  .zx9-texts p {
     text-align: justify;
   }
-  .xx99-mark {
+
+  .zx7 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "right left";
     margin: 1rem 9rem 3rem;
   }
-  .xx99mark-texts {
-    grid-area: right;
-    margin: 10rem 6rem 15rem;
-    text-align: justify;
-  }
-  .xx99mark-texts h1 {
-    font-family: "Manrope";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 1.43px;
-    text-transform: uppercase;
-    text-align: justify;
-    color: #000;
-  }
-  .xx99mark-texts h6 {
-    text-align: justify;
-  }
-
-  .xx59 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "right left";
-    margin: 1rem 9rem 3rem;
-  }
-  .xx59-texts {
+  .zx7-texts {
     grid-area: left;
     margin: 10rem 6rem 15rem;
     text-align: justify;
   }
 
-  .xx59-texts h1 {
+  .zx7-texts h1 {
     font-family: "Manrope";
     font-size: 40px;
     font-style: normal;
@@ -389,7 +287,7 @@
     text-align: justify;
     color: #000;
   }
-  .xx59-texts h6 {
+  .zx7-texts h6 {
     text-align: justify;
   }
 }

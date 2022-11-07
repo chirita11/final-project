@@ -45,13 +45,13 @@ const Navbar = () => {
               </Link>
               <Link
                 className={newLocation[1] === "about" ? "active" : ""}
-                to="/"
+                to="/speaker"
               >
                 Speakers
               </Link>
               <Link
                 className={newLocation[1] === "about" ? "active" : ""}
-                to="/"
+                to="/earphone"
               >
                 Earphones
               </Link>

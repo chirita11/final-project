@@ -75,7 +75,8 @@
   background-color: #fbaf85;
 }
 .section-2 {
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
+  margin: 2rem;
 }
 .shop-items {
   position: relative;
@@ -85,13 +86,10 @@
 .item-box {
   background-color: #f1f1f1;
   padding: 7rem 0 2rem;
-  margin: 10rem 1.5rem;
+  margin: 10rem 0;
   border-radius: 15px;
 }
 
-.item-box img {
-  margin-left: 1rem;
-}
 .items {
   width: 200px;
   position: absolute;
@@ -125,7 +123,7 @@
 }
 
 .section-3 {
-  margin: 0 1.5rem;
+  margin: 2rem;
   background-color: #d87d4a;
   border-radius: 10px;
   margin-bottom: 3rem;
@@ -188,7 +186,7 @@
 }
 
 .section-4 {
-  margin: 0 1.5rem;
+  margin: 2rem;
 }
 .section4-text {
   font-family: "Manrope", sans-serif;
@@ -223,7 +221,7 @@
 }
 .left {
   position: absolute;
-  top: 180rem;
+  top: 190rem;
   left: 30px;
   height: 38px;
   right: 0.98%;
@@ -233,7 +231,7 @@
 }
 
 .section-5 {
-  margin: 3rem 1.5rem;
+  margin: 2rem;
   background-color: #f1f1f1;
   border-radius: 10px;
 }
@@ -425,6 +423,23 @@
   .mobile {
     display: none;
   }
+
+  .section {
+    background-color: #191919;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "right left";
+  }
+
+  .home-images {
+    grid-area: left;
+  }
+
+  .home-images img {
+    height: 100vh;
+    width: 95vw;
+  }
   .home-texts {
     text-align: start;
     left: 0;
@@ -433,7 +448,7 @@
     bottom: 0;
     margin: auto;
     width: 400px;
-    margin-left: 5rem;
+    margin-left: 9rem;
   }
 
   .home-texts h6 {
@@ -445,13 +460,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1rem;
-    margin: 15rem 5rem 10rem;
+    margin: 15rem 9rem 10rem;
   }
   .item-box {
     margin: 0;
   }
   .section-3 {
     display: flex;
+    margin: 3rem 9rem;
   }
 
   .image-box .desktop {
@@ -482,15 +498,9 @@
     /* bottom: 0; */
   }
 
-  .pattern {
-    position: absolute;
-    top: 1px;
-    z-index: 1;
-    border: 1px solid red;
-  }
-
   .pattern1 {
-    width: 100%;
+    width: 55vw;
+    height: 80vh;
   }
 
   .section-text h6 {
@@ -514,25 +524,31 @@
   }
 
   .section4-text h3 {
-    font-size: 3rem;
+    font-size: 28px;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     margin-bottom: 30px;
-    margin-left: 30px;
+    margin-left: 200px;
+    line-height: 38.25px;
   }
   .left {
     position: absolute;
     top: 135rem;
     left: 80px;
   }
+
+  .section-4 {
+    margin: 3rem 9rem;
+  }
   .section4-text a {
     color: #000;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17.76px;
+    letter-spacing: 1px;
     padding: 1.5rem 3.8rem;
-    margin-left: 30px;
+    margin-left: 200px;
     border-radius: 0;
     margin-bottom: 3rem;
     margin-top: 13px;
@@ -542,15 +558,28 @@
   .section-5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 3rem 9rem;
   }
 
   .section5-text {
     margin: 6rem 8rem;
   }
   .section5-text h3 {
-    font-size: 2.1rem;
+    font-size: 28px;
     font-weight: 700;
+    line-height: 38.25px;
+    font-family: "Manrope";
     letter-spacing: 2px;
+  }
+
+  .section5-text a {
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17.76px;
+    margin-top: 13px;
+    padding: 1.5rem 3.8rem;
+    letter-spacing: 1px;
   }
   .image4-box img {
     width: 100%;

@@ -1,5 +1,5 @@
 .sectionx {
-  margin: 3rem 1.5rem;
+  margin: 2rem;
   background-color: #f1f1f1;
   border-radius: 10px;
 }
@@ -212,6 +212,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "right left";
+    margin: 3rem 9rem;
   }
 
   .sectionx-text {
