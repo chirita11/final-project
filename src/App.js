@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Headphone from "./components/Headphone";
 import Speaker from "./components/speakers/Speaker";
 import Earphones from "./components/earphones/Earphones";
+import Headphone1 from "./components/headphone1/Headphone1";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
             <Route path="headphone" element={<Headphone />} />
             <Route path="speaker" element={<Speaker />} />
             <Route path="earphone" element={<Earphones />} />
+
+            <Route path="/headphone1" element={<Headphone1 />} />
           </Route>
         </Routes>
       </BrowserRouter>

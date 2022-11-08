@@ -212,7 +212,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "right left";
-    margin: 3rem 9rem;
+    margin: 3rem 5rem;
   }
 
   .sectionx-text {

@@ -320,7 +320,7 @@
 
   .xx99-texts {
     grid-area: left;
-    margin: 10rem 6rem 15rem;
+    margin: 3rem 5rem 10rem;
     text-align: justify;
   }
   .xx99-texts h1 {
@@ -344,7 +344,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "right left";
-    margin: 1rem 9rem 3rem;
+    margin: 2rem 9rem;
   }
   .xx99mark-texts {
     grid-area: right;
@@ -370,7 +370,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "right left";
-    margin: 1rem 9rem 3rem;
+    margin: 1rem 9rem 1rem;
   }
   .xx59-texts {
     grid-area: left;

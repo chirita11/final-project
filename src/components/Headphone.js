@@ -13,10 +13,12 @@ import speaker from "../assets/xshared/xspeakers.png";
 import earphone from "../assets/xshared/xearphones.png";
 import arrowright from "../assets/icon-arrow-right.svg";
 import "../components/Headphone.css";
+import { Link } from "react-router-dom";
+import Headphone1 from "./headphone1/Headphone1";
 
 const Headphone = () => {
   return (
-    <div>
+    <>
       <div className="heading">
         <h4>Headphones</h4>
       </div>
@@ -36,9 +38,9 @@ const Headphone = () => {
             It redefines your premium headphone experience by reproducing the
             balanced depth and precision of studio-quality sound.{" "}
           </h6>
-          <a href="#" className="btn">
+          <Link className="btn" to="/headphone1">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -113,7 +115,9 @@ const Headphone = () => {
           </div>
         </div>
       </div>
-    </div>
+
+      <Headphone1 />
+    </>
   );
 };
 
