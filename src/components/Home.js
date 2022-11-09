@@ -22,11 +22,11 @@ const home = () => {
   return (
     <>
       <div className="section">
-        <div className="home-images">
+        {/* <div className="home-images">
           <img className="desktop" src={desktopimage} alt="" />
           <img className="tablet" src={tabletimage} alt="" />
           <img className="mobile" src={mobileimage} alt="" />
-        </div>
+        </div> */}
         <div className="home-texts">
           <p>New product</p>
           <h1>

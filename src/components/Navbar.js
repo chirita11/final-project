@@ -11,7 +11,7 @@ const Navbar = () => {
   console.log(newLocation);
 
   return (
-    <div>
+    <>
       <nav class="navbar navbar-expand-lg  py-3" id="nav">
         <div class="container">
           <Link class="navbar-brand" href="#">
@@ -62,7 +62,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 

@@ -38,7 +38,7 @@ const Headphone = () => {
             It redefines your premium headphone experience by reproducing the
             balanced depth and precision of studio-quality sound.{" "}
           </h6>
-          <Link className="btn" to="/headphone1">
+          <Link className="btn" to="/headphone/headphone1">
             SEE PRODUCT
           </Link>
         </div>
@@ -116,7 +116,7 @@ const Headphone = () => {
         </div>
       </div>
 
-      <Headphone1 />
+      {/* <Headphone1 /> */}
     </>
   );
 };

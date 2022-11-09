@@ -315,13 +315,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "right left";
-    margin: 5rem 9rem 1rem;
+    margin: 2rem 4rem;
   }
 
   .xx99-texts {
     grid-area: left;
-    margin: 3rem 5rem 10rem;
-    text-align: justify;
+    margin: 1rem 2rem 2rem;
+    text-align: start;
+    align-items: center;
   }
   .xx99-texts h1 {
     font-family: "Manrope";
@@ -331,25 +332,26 @@
     line-height: 44px;
     letter-spacing: 1.43px;
     text-transform: uppercase;
-    text-align: justify;
+    text-align: start;
     color: #000;
   }
   .xx99-texts h6 {
-    text-align: justify;
+    text-align: start;
   }
   .xx99-texts p {
-    text-align: justify;
+    text-align: start;
   }
   .xx99-mark {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "right left";
-    margin: 2rem 9rem;
+    margin: 2rem 4rem;
   }
   .xx99mark-texts {
     grid-area: right;
-    margin: 10rem 6rem 15rem;
-    text-align: justify;
+    margin: 1rem 2rem 2rem;
+    text-align: start;
+    align-items: center;
   }
   .xx99mark-texts h1 {
     font-family: "Manrope";
@@ -370,12 +372,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "right left";
-    margin: 1rem 9rem 1rem;
+    margin: 2rem 4rem;
   }
   .xx59-texts {
     grid-area: left;
-    margin: 10rem 6rem 15rem;
-    text-align: justify;
+    margin: 4rem 2rem 2rem;
+    text-align: start;
+    align-items: center;
   }
 
   .xx59-texts h1 {
@@ -386,10 +389,10 @@
     line-height: 44px;
     letter-spacing: 1.43px;
     text-transform: uppercase;
-    text-align: justify;
+    text-align: start;
     color: #000;
   }
   .xx59-texts h6 {
-    text-align: justify;
+    text-align: start;
   }
 }

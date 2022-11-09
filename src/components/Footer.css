@@ -108,7 +108,8 @@
     text-align: start;
   }
   .footer-links {
-    display: flex;
+    display: grid;
+    grid-template-columns: 500px 150px;
   }
   .links {
     text-align: end;
@@ -196,7 +197,7 @@
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 1.43px;
-    text-align: justify;
+    text-align: start;
     line-height: 44px;
   }
 
@@ -204,21 +205,24 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 25px;
-    text-align: justify;
-    padding: 10px 6px;
+    text-align: start;
+    padding: 1rem 6px;
   }
 
   .sectionx {
+    background-color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "right left";
-    margin: 3rem 5rem;
+    margin: 1rem 5rem 5rem;
   }
 
   .sectionx-text {
     grid-area: right;
-    margin: 15rem 6rem;
+    align-items: center;
+    margin: 7rem 1.5rem 1rem;
   }
+
   .imagex-box {
     grid-area: left;
   }

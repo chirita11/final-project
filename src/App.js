@@ -17,8 +17,7 @@ function App() {
             <Route path="headphone" element={<Headphone />} />
             <Route path="speaker" element={<Speaker />} />
             <Route path="earphone" element={<Earphones />} />
-
-            <Route path="/headphone1" element={<Headphone1 />} />
+            <Route path="headphone/headphone1" element={<Headphone1 />} />
           </Route>
         </Routes>
       </BrowserRouter>

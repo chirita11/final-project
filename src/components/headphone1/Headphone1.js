@@ -24,16 +24,22 @@ import headphone from "../../assets/xshared/xheadphones.png";
 import speaker from "../../assets/xshared/xspeakers.png";
 import earphone from "../../assets/xshared/xearphones.png";
 import arrowright from "../../assets/icon-arrow-right.svg";
+import { Link } from "react-router-dom";
+import "../headphone1/Headphone1.css";
 
 const Headphone1 = () => {
   return (
     <>
-      <p>Go Back</p>
+      <div className="goback">
+        <Link to="/headphone">Go Back</Link>
+      </div>
 
       <div className="mark2">
-        <img className="mobile" src={mobileheadphone} alt="" />
-        <img className="tablet" src={tabletheadphone} alt="" />
-        <img className="desktop" src={desktopheadphone} alt="" />
+        <div className="mark2-image">
+          <img className="mobile" src={mobileheadphone} alt="" />
+          <img className="tablet" src={tabletheadphone} alt="" />
+          <img className="desktop" src={desktopheadphone} alt="" />
+        </div>
         <div className="mark2-text">
           <h6>NEW PRODUCT</h6>
           <h4>XX99 Mark II Headphones</h4>
@@ -42,18 +48,21 @@ const Headphone1 = () => {
             It redefines your premium headphone experience by reproducing the
             balanced depth and precision of studio-quality sound.
           </p>
+          <h5>$ 2,999</h5>
 
-          <a href="/" className="btn">
-            SEE PRODUCT
-          </a>
-        </div>
-        <h6>$ 2,999</h6>
+          <div className="counter">
+            <div className="count">
+              <button>-</button>
+              <p>1</p>
+              <button>+</button>
+            </div>
 
-        <div>
-          <div className="counter"></div>
-          <a href="/" className="btn">
-            ADD TO CART
-          </a>
+            <div className="add">
+              <a href="#" className="btn">
+                ADD TO CART
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -66,38 +75,43 @@ const Headphone1 = () => {
             endless listening. It includes intuitive controls designed for any
             situation. Whether you’re taking a business call or just in your own
             personal space, the auto on/off and pause features ensure that
-            you’ll never miss a beat. The advanced Active Noise Cancellation
-            with built-in equalizer allow you to experience your audio world on
-            your terms. It lets you enjoy your audio in peace, but quickly
-            interact with your surroundings when you need to. Combined with
-            Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the
-            XX99 Mark II headphones gives you superior sound, cutting-edge
-            technology, and a modern design aesthetic.
+            you’ll never miss a beat.
+          </p>
+          <p>
+            The advanced Active Noise Cancellation with built-in equalizer allow
+            you to experience your audio world on your terms. It lets you enjoy
+            your audio in peace, but quickly interact with your surroundings
+            when you need to. Combined with Bluetooth 5. 0 compliant
+            connectivity and 17 hour battery life, the XX99 Mark II headphones
+            gives you superior sound, cutting-edge technology, and a modern
+            design aesthetic.
           </p>
         </div>
 
-        <div>
+        <div className="boxflex">
           <h5>IN THE BOX</h5>
-          <div className="flex">
-            <p>1x</p>
-            <p>Headphone Unit</p>
-          </div>
-          <div className="flex">
-            <p>1x</p>
-            <p>Replacement Earcups</p>
-          </div>
-          <div className="flex">
-            <p>2x</p>
-            <p> User manual</p>
-          </div>
+          <div className="inflex">
+            <div className="flex">
+              <span>1x</span>
+              <p>Headphone Unit</p>
+            </div>
+            <div className="flex">
+              <span>2x</span>
+              <p>Replacement Earcups</p>
+            </div>
+            <div className="flex">
+              <span>1x</span>
+              <p> User manual</p>
+            </div>
 
-          <div className="flex">
-            <p>1x</p>
-            <p>3.5mm 5m Audio Cable</p>
-          </div>
-          <div className="flex">
-            <p>1x</p>
-            <p>Travel Bag</p>
+            <div className="flex">
+              <span>1x</span>
+              <p>3.5mm 5m Audio Cable</p>
+            </div>
+            <div className="flex">
+              <span>1x</span>
+              <p>Travel Bag</p>
+            </div>
           </div>
         </div>
       </div>
@@ -109,15 +123,15 @@ const Headphone1 = () => {
         <img className="mobile" src={gallery2mobile} alt="" />
         <img className="tablet" src={gallery2tablet} alt="" />
         <img className="desktop" src={gallery2desktop} alt="" />
-        <div>
-          <img className="mobile" src={gallery3mobile} alt="" />
-          <img className="tablet" src={gallery3tablet} alt="" />
-          <img className="desktop" src={gallery3desktop} alt="" />
-        </div>
-      </div>
 
-      <h3>YOU MAY ALSO LIKE</h3>
+        <img className="mobile" src={gallery3mobile} alt="" />
+        <img className="tablet" src={gallery3tablet} alt="" />
+        <img className="desktop" src={gallery3desktop} alt="" />
+      </div>
       <div className="you-may-also-like">
+        <div className="head">
+          <h3>YOU MAY ALSO LIKE</h3>
+        </div>
         <div>
           <img className="mobile" src={mark1mobile} alt="" />
           <img className="tablet" src={mark1tablet} alt="" />

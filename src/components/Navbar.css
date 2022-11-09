@@ -22,20 +22,19 @@
   color: #d87d4a;
 }
 
-@media (min-width: 769px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1198px) {
   #nav {
     margin: 0;
   }
 }
 
-@media (min-width: 1024px) {
-  #nav {
+@media (min-width: 1199px) {
+  .navbar-brand {
     margin: 0;
+    background-color: #000;
   }
-}
 
-@media (min-width: 481px) and (max-width: 768px) {
-  #nav {
-    margin: 0;
+  .cart {
+    margin: 0 2rem;
   }
 }
