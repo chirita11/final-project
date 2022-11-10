@@ -50,12 +50,12 @@ const Speaker = () => {
         </div>
         <div className="zx7-texts">
           <h1>
-            XX99 Mark I <br /> Headphones
+            ZX7 <br /> Speakers
           </h1>
           <h6>
-            As the gold standard for headphones, the classic XX99 Mark I offers
-            detailed and accurate audio reproduction for audiophiles, mixing
-            engineers, and music aficionados alike in studios and on the go.{" "}
+            Stream high quality sound wirelessly with minimal to no loss. The
+            ZX7 speaker uses high-end audiophile components that represents the
+            top of the line powered speakers for home or studio use.
           </h6>
           <a href="#" className="btn">
             SEE PRODUCT

@@ -164,8 +164,9 @@
 
   .yx1-texts {
     grid-area: left;
-    margin: 10rem 6rem 15rem;
-    text-align: justify;
+    margin: auto;
+    text-align: left;
+    padding: 0 2rem 0 6rem;
   }
   .yx1-texts h1 {
     font-family: "Manrope";
@@ -175,13 +176,13 @@
     line-height: 44px;
     letter-spacing: 1.43px;
     text-transform: uppercase;
-    text-align: justify;
+    text-align: start;
     color: #000;
   }
   .yx1-texts h6 {
-    text-align: justify;
+    text-align: start;
   }
   .yx1-texts p {
-    text-align: justify;
+    text-align: start;
   }
 }

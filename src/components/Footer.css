@@ -219,8 +219,9 @@
 
   .sectionx-text {
     grid-area: right;
-    align-items: center;
-    margin: 7rem 1.5rem 1rem;
+    margin: auto;
+    text-align: right;
+    padding: 0 2rem 0 6rem;
   }
 
   .imagex-box {

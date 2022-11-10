@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg  py-3" id="nav">
-        <div class="container">
+      <nav class="navbar navbar-expand-lg  py-4" id="nav">
+        <div class="container-fluid">
           <Link class="navbar-brand" href="#">
             <img src={logoImg} alt="" />
           </Link>
@@ -56,8 +56,10 @@ const Navbar = () => {
                 Earphones
               </Link>
             </div>
-            <div className="cart">
-              <img src={cart} alt="" />
+            <div className="cart-icon">
+              <Link className="cart">
+                <img src={cart} alt="" />
+              </Link>
             </div>
           </div>
         </div>

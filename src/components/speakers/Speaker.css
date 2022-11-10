@@ -243,8 +243,9 @@
 
   .zx9-texts {
     grid-area: left;
-    margin: 10rem 6rem 15rem;
-    text-align: justify;
+    margin: auto;
+    text-align: left;
+    padding: 0 2rem 0 6rem;
   }
   .zx9-texts h1 {
     font-family: "Manrope";
@@ -254,26 +255,27 @@
     line-height: 44px;
     letter-spacing: 1.43px;
     text-transform: uppercase;
-    text-align: justify;
+    text-align: start;
     color: #000;
   }
   .zx9-texts h6 {
-    text-align: justify;
+    text-align: start;
   }
   .zx9-texts p {
-    text-align: justify;
+    text-align: start;
   }
 
   .zx7 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-areas: "right left";
     margin: 1rem 9rem 3rem;
   }
   .zx7-texts {
-    grid-area: left;
-    margin: 10rem 6rem 15rem;
-    text-align: justify;
+    grid-area: right;
+    margin: auto;
+    text-align: left;
+    padding: 0 7rem 0 0;
   }
 
   .zx7-texts h1 {
@@ -284,10 +286,10 @@
     line-height: 44px;
     letter-spacing: 1.43px;
     text-transform: uppercase;
-    text-align: justify;
+    text-align: start;
     color: #000;
   }
   .zx7-texts h6 {
-    text-align: justify;
+    text-align: start;
   }
 }
